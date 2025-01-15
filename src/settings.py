@@ -4,7 +4,7 @@ import socket
 class Settings:
     __conf = {
         "HOST": socket.gethostname(),
-        "PORT": 1,
+        "PORT": 9999,
     }
 
     @staticmethod
